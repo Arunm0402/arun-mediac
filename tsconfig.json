@@ -1,0 +1,10 @@
+{
+  "extends": "@quasar/app/tsconfig-preset",
+  "compilerOptions": {
+    "jsx": "preserve", // remove this before commiting ( Ray )
+    "baseUrl": ".",
+    "target": "es5",
+    "esModuleInterop": true,
+    "types": ["jest", "quasar"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "@quasar/testing-unit-jest": {
+    "babel": false,
+    "options": [
+      "scripts",
+      "typescript",
+      "SFC",
+      "wallabyjs",
+      "majestic"
+    ]
+  },
+  "@quasar/testing": {
+    "harnesses": [
+      "unit-jest"
+    ]
+  }
+}
