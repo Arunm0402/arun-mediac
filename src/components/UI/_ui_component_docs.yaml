@@ -1,0 +1,12 @@
+UserListItem:
+  description: >
+    Display a user avatar icon, user name, and some
+    of uer description
+  props:
+    userName:
+      type: String
+      description: A string of user name
+    userDescription:
+      type: String
+      description: Can be anything what to describe the user
+  event:
